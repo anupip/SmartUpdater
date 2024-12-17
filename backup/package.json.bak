@@ -1,0 +1,35 @@
+{
+  "name": "smartupdater",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "smartupdater": "updater.js"
+  },
+  "keywords": [],
+  "author": "Anurag Pipriya",
+  "license": "Apache-2.0",
+  "description": "An NPM package that scans your project for outdated packages",
+  "dependencies": {
+  "chalk": "4.1.0",
+  "cli-table3": "0.5.0",
+  "execa": "5.0.0",
+  "inquirer": "8.0.0",
+  "npm-check": "5.9.0",
+  "ora": "6.0.0",
+  "prompt": "1.2.0",
+  "semver": "6.3.0"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupip/SmartUpdater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anupip/SmartUpdater/issues"
+  },
+  "homepage": "https://github.com/anupip/SmartUpdater#readme"
+}
