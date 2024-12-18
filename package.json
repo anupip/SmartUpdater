@@ -1,6 +1,6 @@
 {
   "name": "smartupdater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "updater.js",
   "type": "module",
   "scripts": {
